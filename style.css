@@ -1,0 +1,294 @@
+@font-face {
+    font-family: "raleway-light";
+    src: url(fonts/raleway/Raleway-Light.ttf);
+}
+@font-face {
+    font-family: "raleway";
+    src: url(fonts/raleway/Raleway-Regular.ttf);
+}
+@font-face {
+    font-family: "raleway-bold";
+    src: url(fonts/raleway/Raleway-Bold.ttf);
+}
+
+.header_container {
+    width: 100%;
+    height: 30px;
+    background-color: black;
+}
+.header_main_width {
+    margin: auto;
+    width: 980px;
+    height: 30px;
+
+}
+
+.header_logo{
+  color: white;
+  text-transform: uppercase;
+  line-height: 30px;
+  float: left;
+  font-family: raleway-bold;
+}
+
+.motive_color{
+  color: rgb(41, 196, 176);
+}
+
+.menu_list{
+  width: 300px;
+  height: 30px;
+  float: right;
+  margin: 0;
+}
+
+.menu_element {
+    display: inline-block;
+    font-family: raleway;
+    float: right;
+    text-transform: uppercase;
+    color: white;
+    height: 30px;
+    width: 100px;
+    line-height: 30px;
+    text-align: center;
+    background-color: black;
+}
+
+.menu_element:hover {
+    background-color: grey;
+}
+
+.banner_section_container{
+  background: linear-gradient(white , rgb(204, 203, 209));
+  width: 100%;
+  height: 400px;
+}
+
+.banner_section_main_width{
+  margin: auto;
+  width: 980px;
+  height: 300px;
+  padding-top: 50px;
+}
+
+.insider_banner{
+  width:850px;
+  padding-left: 65px;
+  padding-right: 65px;
+
+}
+
+.left_bracket{
+  display: inline-block;
+  vertical-align: top;
+  width: 40px;
+  height: 300px;
+  line-height: 300px;
+  font-size: 70px;
+
+}
+
+.chair_image{
+  display: inline-block;
+  height: 300px;
+  width: 300px;
+  overflow: hidden;
+
+}
+
+.black_chair{
+  height: 300px;
+  position: relative;
+  left: -40px;
+
+}
+
+.chair_description{
+  display: inline-block;
+  width: 360px;
+  height: 300px;
+  vertical-align: top;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.right_bracket{
+  display: inline-block;
+  vertical-align: top;
+  width: 40px;
+  height: 300px;
+  line-height: 300px;
+  font-size: 70px;
+}
+
+.chair_description_header{
+  text-transform: uppercase;
+  margin: 45px 5px 20px 5px;
+  width: 350px;
+  height: 40px;
+  text-align: center;
+
+  line-height: 40px;
+  font-size: 30px;
+}
+
+.chair_description_text{
+  text-align: center;
+  font-family: raleway-light;
+  width: 300px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.see_more_button{
+  text-transform: uppercase;
+  font-size: 20px;
+  border-radius: 10px;
+  background-color: rgb(41, 196, 176);
+  color: white;
+  font-family: raleway-light;
+  width: 230px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  margin-top: 15px;
+  margin-left: 35px;
+}
+
+.see_more_button:hover{
+  text-transform: uppercase;
+  font-size: 25px;
+  border-radius: 10px;
+  background-color: transparent;
+  color: rgb(41, 196, 176);
+  font-family: raleway-bold;
+
+  width: 230px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  margin-top: 15px;
+  margin-left: 35px;
+}
+
+.chairs_gallery_main_width{
+  margin: auto;
+  width: 980px;
+  height: 250px;
+  padding-top: 30px;
+}
+
+.gallery_element1{
+  display: inline-block;
+  width: 300px;
+  height: 225px;
+  vertical-align: top;
+  padding-right: 17px;
+  position:relative;
+}
+
+.gallery_element2{
+  display: inline-block;
+  width: 300px;
+  height: 225px;
+  vertical-align: top;
+  padding-left: 18px;
+  padding-right: 18px;
+  position:relative;
+}
+
+.gallery_element3{
+  display: inline-block;
+  width: 300px;
+  height: 225px;
+  vertical-align: top;
+  padding-left: 17px;
+  border: 1px solid lightgrey;
+
+}
+
+.box_img{
+  width: 300px;
+}
+
+.gallery_element_text{
+  font-family: raleway-light;
+  font-size: 13px;
+}
+
+.chair_name_block{
+  position: absolute;
+  width:300px;
+  height: 50px;
+  top: 140px;
+  background-color: rgba(255, 255, 255, 0.5);
+
+}
+
+.chair_name1{
+  font-size: 15px;
+    font-family: raleway;
+    border-bottom: 5px solid rgb(41, 196, 176);
+    width: 115px;
+    height:  20px;
+    margin-left: 15px;
+margin-top: 10px;
+
+}
+
+.chair_model{
+  text-transform: uppercase;
+}
+
+.chair_name2{
+  font-size: 15px;
+    font-family: raleway;
+    border-bottom: 5px solid rgb(41, 196, 176);
+    width: 130px;
+    height:  20px;
+    margin-left: 15px;
+margin-top: 10px;
+
+}
+
+.gallery_element_header{
+  border-bottom: 5px solid rgb(41, 196, 176);
+  width: 150px;
+  height:  20px;
+  font-size: 16px;
+}
+
+.cennik{
+  width: 100%;
+  height: 600px;
+  background-color: rgb(240, 240, 240);
+}
+
+.cennik_main_width{
+  margin: auto;
+  width: 980px;
+  height: 600px;
+}
+.cennik_header{
+  padding-top: 20px;
+  width: 980px;
+  height: 100px;
+  text-transform: uppercase;
+  font-family: raleway-light;
+}
+
+.cennik_header_text{
+  margin-top: 30px;
+  width: 300px;
+  height:25px;
+  border-bottom: 5px solid rgb(41, 196, 176);
+  font-family: raleway-light;
+  font-size: 17px;
+}
+
+.cennik_content{
+  border: 1px solid green;
+  width: 980px;
+  height: 500px;
+}
